@@ -69,6 +69,17 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/tr
 
 ### Useful notations
 
-### `yarn add node-sass`
-### `yarn add firebase`
-### `yarn add redux redux-logger react-redux`
+#### `yarn add node-sass`
+#### `yarn add firebase`
+#### `yarn add redux redux-logger react-redux`
+
+### Deploying to heroku
+
+#### `brew tap heroku/brew && brew install heroku`
+#### `heroku login`
+#### `heroku create dombrovskyi-crwn-live --buildpack https://github.com/mars/create-react-app-buildpack.git`
+#### `git push heroku master`
+
+#### Useful links regarding this kind of deployment
+https://github.com/mars/create-react-app-buildpack
+https://devcenter.heroku.com/articles/github-integration
